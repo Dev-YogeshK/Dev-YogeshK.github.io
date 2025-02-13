@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Message by Yogesh Dev</title>
+    <!-- Audio element to play background music -->
+    <audio autoplay loop>
+      <source src="song.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+  </audio>
      <style>
       * {
   box-sizing: border-box;
@@ -281,8 +286,10 @@ body {
 
 
      </style>
+     
   </head>
   <body>
+
     <div class="book">
       <div class="page">
         <div class="front cover">
@@ -292,7 +299,7 @@ body {
               text-shadow: 5px 2px 5px rgb(0, 0, 0);
             "
           >
-            A Message for You🤍
+            From Notice period to RETENTION ?🤍
           </h1>
 
           <p
@@ -301,7 +308,7 @@ body {
               text-shadow: 5px 2px 5px rgb(0, 0, 0);
             "
           >
-            2025.<br />Yogesh Special Edition
+            <br />
           </p>
         </div>
         <div class="back">
@@ -315,10 +322,7 @@ body {
         
         So, here’s to us—our conversations, our connection, and the beautiful moments yet to come. 💖</p>
 
-          <p>
-            Play Video Before Start Reading... <br />Since we connect in
-            Instagram on January 8th, 2021, ....
-          </p>
+        
         </div>
       </div>
       <!--2nd page-->
@@ -477,9 +481,9 @@ No challenge is too big for you, and no goal is out of reach. You inspire those 
           <img src="./4.jpeg" alt="Img 1" />
         </div>
         <div class="back cover">
-          <h3>Cutest Queen</h3>
+          
           <p>
-            Content:By Yogesh DEV<br /><a
+            <br /><a
               href=""
               target="_blank"
               rel="nofollow"></a>
@@ -520,6 +524,12 @@ No challenge is too big for you, and no goal is out of reach. You inspire those 
   
   document.querySelectorAll(".book").forEach(flipBook);
   
+</script>
+<script>
+  function playMusic() {
+      var audio = document.getElementById('bg-music');
+      audio.play();
+  }
 </script>
  
   </body>
